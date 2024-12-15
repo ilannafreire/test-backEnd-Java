@@ -2,7 +2,7 @@ package br.com.ilannafreire.desafio_cadastro_jogadores.model;
 
 public enum GrupoCodinome {
     VINGADORES("Vingadores", "https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/vingadores.json"),
-    LIGA_DA_JUSTICA("Liga da justiça", "https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/liga_da_justica.xml")
+    LIGA_DA_JUSTICA("Liga da justiça", "https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/liga_da_justica.xml");
 
     GrupoCodinome(String nome, String uri) {
         this.nome = nome;
